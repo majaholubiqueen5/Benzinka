@@ -11,15 +11,15 @@ namespace BenzinovaPumpa
     internal class Pocty
     {
         Random r = new Random();
-        public void Run ()
+        public void Run()
         {
-            
-           
-           
+
+
+
             bool proceed = true;
-                while (proceed)
+            while (proceed)
             {
-               
+
 
                 string input = Console.ReadLine();
                 if (input == "go")
@@ -35,7 +35,7 @@ namespace BenzinovaPumpa
 
                     while (gas > 35)
                     {
-                        if (gas >=0)
+                        if (gas >= 0)
                         {
                             for (int i = 0; i < cars.Length; i++)
                             {
@@ -50,14 +50,11 @@ namespace BenzinovaPumpa
                                 }
                             }
                         }
-                    }      
+                    }
                     Console.WriteLine("kolik zbývá benzínu:" + gas);
                     Console.WriteLine("kolik natankuje aut:" + pocet);
                 }
-            }           
+            }
         }
-        string b = "ijhgbv";
     }
-    //ggggggggggggggggggggggggggggg
-  
 }
