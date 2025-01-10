@@ -13,14 +13,9 @@ namespace BenzinovaPumpa
         Random r = new Random();
         public void Run()
         {
-
-
-
             bool proceed = true;
             while (proceed)
             {
-
-
                 string input = Console.ReadLine();
                 if (input == "go")
                 {
@@ -58,3 +53,4 @@ namespace BenzinovaPumpa
         }
     }
 }
+//bvcfghjioéíáztfrdcvhjioéíáztfc
